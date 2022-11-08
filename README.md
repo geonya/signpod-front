@@ -1,27 +1,42 @@
-# SignpodFront
+_220926_
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+# Signpod Webpage Rebuilding
 
-## Development server
+### NextJS / Typescript + Graphql + Apollo Client / MUI /
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Rebuilding -> Angular + Graphql + Apollo Client
 
-## Code scaffolding
+- [x] NextJS Init
+- [x] Material UI Init
+- [x] Apollo Client setup
+- [x] 로그인 / 회원가입 페이지
+- [x] Account Profile Layout
+- [x] Dashboard Layout
+- [x] Domain Deploy
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+      -- Works --
 
-## Build
+  - [x] Sidebar Layout
+  - [x] Navbar Layout
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+    - [x] Account
+    - [x] Noti
+    - [x] Search
 
-## Running unit tests
+  - [x] 카테고리 필터 디자인
+  - [x] Create Works 레이아웃 디자인
+  - [x] Works File Upload Test
+  - [x] Works List
+  - [ ] Works Detail Page
+  - [ ] Pagination
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    -- Profile --
 
-## Running end-to-end tests
+- [x] JWT - Cookie Login
+  - [x] cookie util
+  - [x] Access Token & Refresh Token
+- [x] Edit Profile Page Layout
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### Angular Refactoring
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [ ]
