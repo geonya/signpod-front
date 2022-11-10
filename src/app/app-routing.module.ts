@@ -1,18 +1,22 @@
-import { NgModule } from '@angular/core'
-import { RouterModule, Routes } from '@angular/router'
-import { LoginComponent } from './auth/login/login.component'
-import { HomeComponent } from './home/home.component'
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { LoginComponent } from './auth/login/login.component';
+import { LayoutComponent } from './layout/layout.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
+    component: LayoutComponent,
   },
   {
     path: 'login',
     component: LoginComponent,
   },
-]
+  {
+    path: '**',
+    component: LayoutComponent,
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

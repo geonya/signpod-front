@@ -1,1 +1,10 @@
-<app-auth></app-auth>
+<div class="container">
+  <h1 color="primary">Signpod Login</h1>
+  <mat-form-field appearance="outline">
+    <mat-label>Email</mat-label>
+    <input type="email" matInput [formControl]="email" required />
+    <mat-icon matSuffix>email</mat-icon>
+    <mat-error>Error Field</mat-error>
+  </mat-form-field>
+  <button mat-raised-button color="primary">Login</button>
+</div>
