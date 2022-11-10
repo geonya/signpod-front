@@ -6,6 +6,7 @@ import { LoginModule } from './auth/login/login.module';
 import { RegisterModule } from './auth/register/register.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from './layout/layout.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent],
@@ -16,6 +17,7 @@ import { LayoutModule } from './layout/layout.module';
     RegisterModule,
     BrowserAnimationsModule,
     LayoutModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
